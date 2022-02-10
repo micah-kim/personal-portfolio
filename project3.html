@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Source+Serif+4&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="project3-style.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/88823720ad.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html#Projects">Go Back</a>
-            </li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Augmented Museum App: A New Way to Visualize Art</h2>
-        <div>
-            <img src="project3_img1.png" alt="3D text example" height="350px">
-            <img src="project3_img2.png" alt="Project Demo" height="350px">
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link" href="index.html#Projects">Go Back</a>
+                </li>
+            </ul>
+        </nav>      
+        <div class="content-container">
+            <h2>Augmented Museum App: A New Way to Visualize Art</h2>
+            <section>
+                <div class="row">
+                    <div class="img-row col-6">
+                        <img src="project3_img1.png" alt="3D text example" width="250px">
+                        <img src="project3_img2.png" alt="Project demo" width="250px">
+                    </div>
+                    <div class="col-6">
+                        <div><b>Contributor(s):</b> Micah Kim</div>
+                        <div><b>Event:</b> <i>Personal Project</i></div>
+                        <div class="project-type-personal">Personal Project</div>
+                        <div><b>Dates:</b> 07-15-2021 ~ 8-15-2021</div>
+                        <div></div>
+                        <div>
+                            <p>
+                                I've always loved art but I was never a fan of those plaques that 
+                                have the art's description. It ruin's the museum's neat asthetic and 
+                                isn't good for the environment. By optimizing ARkit's image recognition 
+                                software, I created an application that anchor's virtual text when 
+                                detecting an artword through the phone's camera.
+                            </p>
+                        </div>
+                        <a class="highlight project-link" href="https://drive.google.com/file/d/1XyV726CWuPdE8ezMRcSFPqzZWC4LWXd3/view?usp=sharing" target="_blank"><i class="fas fa-play project-icon"></i> Video</a>
+                        <a class="highlight project-link" href="https://github.com/micah-kim/Augmented-Museum-App" target="_blank"><i class="fas fa-code project-icon"></i> Code</a>
+                    </div>
+                </div>
+            </section>
+            <div class="copyright">Copyright &copy Micah Kim 2022</div>
         </div>
-        <div>
-            <div><b>Contributor(s):</b> Micah Kim</div>
-            <div><b>Event:</b> <i>Personal Project</i></div>
-            <div><b>Purpose:</b> Technology for Art</div>
-            <div><b>Dates:</b> 07-15-2021 ~ 8-15-2021</div>
-            <div></div>
-            <div>
-                <p>
-                    Flann O'brien's novel <i>The Third Policeman</i>, published in 1939, is a dark comic novel
-                    exploring the nature of death, time, and existance. It is very impactful piece of Irish Literature
-                    is very well-known throughout the world. In this project, I worked with a team of students
-                    interested in Computer Science, English, and Film to recreate scenes from the novel in Augmented
-                    Reality. By Using the Swift programming language, optimizing the ARKit framework, creating
-                    3D models using Cinema 4D, and animating them using Reality Composer. This project will be
-                    presented at the International Flann O'Brien Conference in April, 2022.
-                </p>
-            </div>
-            <a href="">Paper</a> <a href="">Video</a> <a href="">Demo</a>
-        </div>
-    </section>
-    <div>Copyright &copy Micah Kim 2022</div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,283 @@
+* {
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section {
+    padding: 0 20px 0 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+p, a, h3 {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #bdfcbd;
+    z-index: 99;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.nav-list-item-link {
+    background-color: #bdfcbd;
+    border-radius: 5px;
+    padding: 6px 20px;
+    transition: all 0.5s ease;
+}
+
+.nav-list-item-link {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    background-color: #bdfcbd;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: all 0.5s ease;
+}
+
+.nav-list-item-link:hover {
+    background-color: #afe0af;
+}
+
+.content-container {
+    max-width: 1024px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: white;
+    line-height: 1.7rem;
+    font-size: 125%;
+
+    transition: all 0.75s ease-in-out;
+}
+
+.img-container {
+    padding: 10px;
+}
+
+.col-1 {flex-basis: 8.33%;}
+.col-2 {flex-basis: 16.66%;}
+.col-3 {flex-basis: 25%;}
+.col-4 {flex-basis: 33.33%;}
+.col-5 {flex-basis: 41.66%;}
+.col-6 {flex-basis: 50%;}
+.col-7 {flex-basis: 58.33%;}
+.col-8 {flex-basis: 66.66%;}
+.col-9 {flex-basis: 75%;}
+.col-10 {flex-basis: 83.33%;}
+.col-11 {flex-basis: 91.66%;}
+.col-12 {flex-basis: 100%;}
+
+.portrait {
+    border-radius: 5px;
+    width: 250px;
+    display: block;
+}
+
+.about-container {
+    display: block;
+    text-align: center;
+}
+
+.about-social-item {
+    color: #000;
+    transition: all 0.35s ease;
+}
+
+.about-social-item-resume {
+    color: #000;
+}
+
+.about-social-item-twitter {
+    color: #00acee;
+}
+
+.about-social-item-linkedin {
+    color: #0e76a8;
+}
+
+.about-social-item-github {
+    color: #6e5494;
+}
+
+.fab {
+    font-size: 1.4rem;
+}
+
+.fas {
+    font-size: 1.3rem;
+}
+
+.resume-button {
+    display: inline;
+    padding: 2px 2px 1px 4px;
+    background-color: #bdd3fc;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.resume-button:hover {
+    background-color: #94b5f1;
+}
+.para-space {
+    padding: 0 0 15px 0px;
+}
+
+.news-container {
+    background-color: #bdf3f3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.news-date-container {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.project-container a:hover {
+    text-decoration: underline;
+}
+
+.project-type-research, .project-type-hackathon, .project-type-personal {
+    display:inline;
+    border-radius: 3px;
+    padding: 1px 4px;
+}
+.project-type-research {
+    background-color: wheat;
+}
+
+.project-type-hackathon {
+    background-color: #f89898;
+
+}
+
+.project-type-personal {
+    background-color: #c5a3e6;
+}
+
+.project1-img1, .project1-img2 {
+    width: 130px;
+    height: 200px;
+}
+
+.project2-img1, .project2-img2 {
+    width: 130px;
+    height: 100px;
+}
+
+.project3-img1, .project3-img2 {
+    width: 130px;
+    height: 100px;
+}
+
+.project1-img1, .project1-img2, .project2-img1, .project2-img2, .project3-img1, .project3-img2 {
+    border-radius: 5px;
+}
+
+.project-info {
+    padding-bottom: 1.5rem;
+}
+
+.project-link {
+    margin-right: 10px;
+}
+
+.project-icon {
+    font-size: 1rem;
+}
+
+.copyright {
+    padding: 1rem 10px;
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        padding: 2rem 0;
+        text-align: left;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .content-container {
+        max-width: 1024px;
+        width: 100%;
+        padding-top: 10px;
+        background-color: white;
+        line-height: 1.5rem;
+        font-size: 100%;
+    }
+
+    .row{
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        align-self: start;
+    }
+
+    .about-container {
+        display: unset;
+        text-align: left;
+    }
+
+    .portrait {
+        border-radius: 20px;
+        width: 250px;
+        display: unset;
+        padding: 0;
+    }
+
+    .resume-button {
+        display: inline;
+        padding: 5px 2px 1px 4px;
+        background-color: #bdd3fc;
+        border-radius: 4px;
+        margin: 0px;
+        margin-right: 5px;
+    }
+
+    .news-date-container {
+        text-align: right;
+    }
+
+    .para-space {
+        padding: 0 0 10px 0;
+    }
+
+    .img-row {
+        display: unset;
+        justify-content: unset;
+    }
+}
