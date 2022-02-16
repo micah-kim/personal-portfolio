@@ -1,0 +1,71 @@
+{
+    "about":{
+        "name": "Micah Kim",
+        "title": "Student at Boston College",
+        "address": "118 Walsh Hall, Chestnut Hill, MA 02467",
+        "photo": "assets/portrait.jpg",
+        "social":{
+            "resume": "https://drive.google.com/file/d/17t0rSJHaZQBFgoqlzQa_pxOJKemw-E-7/view?usp=sharing",
+            "twitter": "https://twitter.com/sldkjfsd",
+            "linkedin": "https://www.linkedin.com/in/mkim-0/",
+            "github": "https://github.com/micah-kim"
+        },
+        "description": "Micah Kim is a student at Boston College studying Computer Science and Mathematics. As an Undergraduate Researcher and Computer Science Teaching Assistant, he aspires to promote educational opportunities and resources in the study and applications of technology. In Micah's research under Professor Joseph Nugent, he utilizes his skills in augmented reality technology and iOS development to create immersive applications that engineer solutions to improve daily life. As a Teaching Assistant for the Data Structures and Algorithms course (CSCI1102) , Micah holds weekly office hours to collaborate with students in helping them with problem sets and in understanding difficult concepts throughout the course. He also leads an hour-long discussion section every week to encourage students to work with one another and go more in-depth with the course material through more challenging problems. Most recently, Micah has joined another research team under Professor Bryan Ranger in the Engineering Department to create a mobile application for portable ultrasound systems."
+    },
+    "news": [
+        {
+            "title": "Computer Science Teaching Assistant",
+            "date": "Jan 17, 2022"
+        },
+        {
+            "title": "Started Spring 2022 semester",
+            "date": "Jan 17, 2022"
+        },
+        {
+            "title": "Undergraduate Research",
+            "date": "Jun 1, 2021"
+        }
+    ],
+    "projects": [
+        {
+            "title": "The Third Policeman Treasure Hunt: Augmented Reality Escape Room Game",
+            "contributors": "Micah Kim, Joseph Nugent, Liam Weir, Sean Chiang, Sarah Kim, Christine Lenahan, Joshua Yi, Aaron Yi, Peter Zogby",
+            "event": "International Annual Flann O'brien Conference 2022",
+            "type": [
+                "Undergraduate Research"
+            ],
+            "date": "06-01-2021 ~ Present",
+            "links": {
+                "paper": "https://docs.google.com/document/d/13ckSHtF2Syydq1p6dMBc763XlmELjZ_IlojJ-hkLnxM/edit?usp=sharing",
+                "code": "https://github.com/UlyssesAR"
+            }
+        },
+        {
+            "title": "Recycle It: Using Machine Learning to Identify Recyclable Items",
+            "contributors": "Micah Kim, Benjamin Lee, Andrew Choi",
+            "event": "Boston College Hack the Heights Hackathon 2021",
+            "type": [
+                "Hackathon"
+            ],
+            "date": "11-10-2021 ~ 11-11-2021",
+            "links": {
+                "event": "https://hacktheheights.org/",
+                "presentation": "https://docs.google.com/presentation/d/1bzumaK3qnwNJbYTFr-iFHRLluCd1bINTC_LIbQwQqoU/edit?usp=sharing",
+                "code": "https://github.com/micah-kim/Recycle-It"
+            }
+        },
+        {
+            "title": "Augmented Museum App: A New Way to Visualize Art",
+            "contributors": "Micah Kim",
+            "event": "Personal Project",
+            "type": [
+                "Personal"
+            ],
+            "date": "07-15-2021 ~ 08-15-2021",
+            "links": {
+                "paper": "https://drive.google.com/file/d/1XyV726CWuPdE8ezMRcSFPqzZWC4LWXd3/view?usp=sharing",
+                "code": "https://github.com/micah-kim/Augmented-Museum-App"
+            }
+        }
+    ]
+}
