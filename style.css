@@ -186,22 +186,8 @@ p, a, h3 {
     background-color: #c5a3e6;
 }
 
-.project1-img1, .project1-img2 {
-    width: 130px;
-    height: 200px;
-}
-
-.project2-img1, .project2-img2 {
-    width: 130px;
-    height: 100px;
-}
-
-.project3-img1, .project3-img2 {
-    width: 130px;
-    height: 100px;
-}
-
 .project1-img1, .project1-img2, .project2-img1, .project2-img2, .project3-img1, .project3-img2 {
+    width: 140px;
     border-radius: 5px;
 }
 
