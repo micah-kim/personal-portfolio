@@ -54,7 +54,8 @@ export function renderProjectItem(projects) {
 
 export function renderProjectPage(projects) {
 	console.log("renderProjectPage");
-	document.querySelector('.content-container').innerHTML = `
+	const main = document.querySelector('.content-container');
+	main.innerHTML+= `
 		<h2>The Third Policeman Treasure Hunt: Augmented Reality Escape Room Game</h2>
 		<section>
 			<div class="row">
@@ -79,4 +80,15 @@ export function renderProjectPage(projects) {
 			</div>
 		</section>
 	`
+}
+
+export function renderProjectFilter(data) {
+    const projects = data.projects;
+    let button = document.querySelectorAll('.filter input[name="filter"]');
+    button.forEach(cond=>cond.addEventListener('change', function(event){
+    const tag = event.target.value.toLowerCase();
+    const filtered_proj = projects.filter(d=>d.type[0].toLowerCase().includes(tag));
+    const projectList = document.querySelector(".project-container");
+    projectList.innerHTML = filtered_proj.map(projects=>renderProjectItem(projects)).join("");
+  }));
 }

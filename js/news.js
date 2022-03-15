@@ -24,3 +24,15 @@ export function renderNewsItem(news) {
         </div>
     `;
 }
+
+export function renderNewsFilter(data) {
+	const news = data.news;
+	const searchBox = document.querySelector('.search input[name="news"]');
+	searchBox.addEventListener('input', (event)=> {
+	  const term = event.target.value.toLowerCase();
+	  const filtered = news.filter(d=>d.title.toLowerCase().includes(term));
+	  const newsList = document.querySelector(".news-container");
+	  newsList.innerHTML = filtered.map(news=>renderNewsItem(news)).join("");
+	});
+  }
+  
